@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "project",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project",
+		"liveServer.settings.useWebExt": true,
+		"color-highlight.markerType": "dot-before"
+	}
+}

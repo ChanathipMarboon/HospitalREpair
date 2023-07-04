@@ -1,0 +1,5 @@
+SELECT * FROM repair_tools
+RIGHT JOIN notify_repair
+ON repair_tools.noti_repair_id = notify_repair.id;
+
+<!-- right join ?>
