@@ -36,7 +36,7 @@
     <?php include("nav.php");?> 
     <div class="sidebar open">
         <div class="logo-details">
-            <img src="https://healthserv.net/imgcntupload/hsp020044e210704092006.jpg"  style="width:60px;height:60px;text-align:center;margin-top:10px;margin-bottom:10px;margin-left:37%;border-radius: 50%;">
+            <img src="../image/Logo.jpg"  style="width:60px;height:60px;text-align:center;margin-top:10px;margin-bottom:10px;margin-left:37%;border-radius: 50%;">
             <div class="logo_name" style="margin-left:10px;font-size:18px;margin-left:45px">ศูนย์ซ่อมอุปกรณ์</div>
             <div class="logo_name" style="margin-left:10px;font-size:18px;margin-left:37px">โรงพยาบาลพะเยา</div>
         </div>
@@ -297,7 +297,6 @@
                         <div class="job" style="font-size: 15px;font-weight: 400;">แผนก <?php echo $_SESSION['user_level'];?></div>
                     </div>
                 </div>
-               
                     <i class='fa fa-user' id="log_out"></i>
                     
 

@@ -1,8 +1,8 @@
 
 <?php
 $servername = "localhost";
-$usernamee = "root";
-$passwordd = "";
+$usernamee = "sa";
+$passwordd = "adasoft";
 $dbname = "repair_db";
 
 // Create connection
