@@ -106,7 +106,7 @@ if (isset($_GET['logout'])) {
             $num = 1;
         }else if($user_level == "ช่างเครื่องมือแพทย์"){
             $sql =  "SELECT * FROM repair_tools RIGHT JOIN notify_repair ON repair_tools.noti_repair_id = notify_repair.id where  (status_repair ='รับเรื่องแล้ว'OR status_repair='กำลังซ่อม' OR edit_fixx='แก้ไข' ) AND type_work ='ศูนย์เครื่องมือแพทย์ฯ' \n". "ORDER BY `notify_repair`.`day_take` DESC;"; 
-           $result_total = mysqli_query($conn,$sql);
+            $result_total = mysqli_query($conn,$sql);
             $num = 1; 
         }else{
             echo "<script type='text/javascript'>";
@@ -126,7 +126,7 @@ if (isset($_GET['logout'])) {
             $num = 1;
         }else if($user_level == "ช่างเครื่องมือแพทย์"){
            $sql =  "SELECT * FROM repair_tools RIGHT JOIN notify_repair ON repair_tools.noti_repair_id = notify_repair.id where  (status_repair ='รับเรื่องแล้ว'OR status_repair='กำลังซ่อม' OR edit_fixx='แก้ไข' ) AND type_work ='ศูนย์เครื่องมือแพทย์ฯ' \n". "ORDER BY `notify_repair`.`day_take` DESC;"; 
-           $result_total = mysqli_query($conn,$sql);
+            $result_total = mysqli_query($conn,$sql);
             $num = 1; 
         }else{
             echo "<script type='text/javascript'>";
@@ -212,7 +212,7 @@ if (isset($_GET['logout'])) {
     </section>
     <!-- Modal -->
     
-         <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal fade" id="myModal" role="dialog">
             <div id ='modal-div'></div>
         </div>
     <script>
@@ -229,7 +229,7 @@ if (isset($_GET['logout'])) {
 
         <script>
             $(document).ready( function () {
-                 $('#data_table').DataTable();
+                $('#data_table').DataTable();
             } );
             
         </script>       

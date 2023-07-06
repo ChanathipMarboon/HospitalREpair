@@ -143,8 +143,6 @@
                 <span class="tooltip">ประวัติการส่งซ่อม</span>
             </li>
             <?php }?>
-
-           
             <?php if(($_SESSION['user_level']=='ช่างคอมพิวเตอร์')||($_SESSION['user_level']=='ช่างซ่อมบำรุงทั่วไป')||($_SESSION['user_level']=='ช่างเครื่องมือแพทย์')){?>
 
                 <?php 
@@ -298,8 +296,6 @@
                     </div>
                 </div>
                     <i class='fa fa-user' id="log_out"></i>
-                    
-
             </li>
         </ul>
     </div>
